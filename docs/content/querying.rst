@@ -40,7 +40,7 @@ interact with the gemini database using the ``query`` tool.
 
     $ gemini query -q "select * from variants \
                           where is_lof = 1 \
-                          and aaf >= 0.01" my.db
+                          and aaf <= 0.01" my.db
 
 3. Extract the nucleotide diversity for each variant:
 
